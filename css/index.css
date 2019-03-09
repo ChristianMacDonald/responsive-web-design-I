@@ -97,17 +97,17 @@ header nav a {
     margin: 0 50px;
 }
 
-header nav a:hover {
-    color: black;
-}
+    header nav a:hover {
+        color: black;
+    }
 
-header nav a:first-child {
-    margin-left: 0;
-}
+    header nav a:first-child {
+        margin-left: 0;
+    }
 
-header nav a:last-child {
-    margin-right: 0;
-}
+    header nav a:last-child {
+        margin-right: 0;
+    }
 
 .logo {
     width: 300px;
@@ -121,9 +121,9 @@ header nav a:last-child {
     margin: 100px 0;
 }
 
-.start-area div {
-    text-align: center;
-}
+    .start-area div {
+        text-align: center;
+    }
 
 .motto {
     font-size: 125px;
@@ -138,9 +138,9 @@ header nav a:last-child {
     font-size: 30px;
 }
 
-.anchor-button:hover {
-    border: 1px solid gray;
-}
+    .anchor-button:hover {
+        border: 1px solid gray;
+    }
 
 .code-img {
     width: 40%;
@@ -189,12 +189,12 @@ header nav a:last-child {
 
     .home-footer address {
         margin: 20px 0;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .home-footer span {
         margin: 20px 0;
-        font-size: 25px;
+        font-size: 20px;
     }
 
 .copyright {
@@ -203,7 +203,62 @@ header nav a:last-child {
 }
 
 @media (max-width: 800px) {
+    .top-bar {
+        flex-direction: column-reverse;
+    }
 
+    header nav {
+        margin: 20px 0 0 0;
+    }
+
+    header nav a {
+        font-size: 15px;
+        margin: 0 25px;
+    }
+
+    .start-area {
+        margin: 50px 0;
+    }
+
+    .motto {
+        font-size: 80px;
+    }
+
+    .anchor-button {
+        font-size: 15px;
+        padding: 5px 50px;
+    }
+
+    .main-section {
+        margin: 20px 0;
+    }
+
+        .main-section h2 {
+            font-size: 15px;
+        }
+
+        .main-section p {
+            font-size: 12px;
+        }
+
+    .home-footer h2 {
+        font-size: 15px;
+        margin: 5px 0;
+    }
+
+    .home-footer span {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .home-footer address {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .code-img {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
